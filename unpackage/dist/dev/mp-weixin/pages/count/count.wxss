@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tip {
+  text-align: center;
+  color: red;
+}
+.sugg-list {
+  padding: 0 5px;
+}
+.sugg-list .sugg-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #efefef;
+}
+.sugg-list .sugg-item .people-name, .sugg-list .sugg-item .people-shouldPay, .sugg-list .sugg-item .people-pay {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sugg-list .sugg-item .people-shouldPay {
+  color: darkorchid;
+}
+.sugg-list .sugg-item .people-pay {
+  color: forestgreen;
+}
+.yes, .no, .finall {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  justify-content: space-between;
+}
+.yes {
+  background-color: limegreen;
+}
+.no {
+  background-color: red;
+  margin-top: 20px;
+}
+.finall {
+  background-color: #ffaaff;
+  margin-top: 40px;
+}
+.detail {
+  text-align: center;
+}
+.allshouldpay, .allpay, .allfieldnumber, .allarea {
+  margin-top: 30px;
+  font-size: 25px;
+}
+.reset {
+  margin-top: 40px;
+}
+

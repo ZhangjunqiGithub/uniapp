@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/search/search",
+    "pages/count/count",
+    "pages/account/account",
+    "subpkg/search/search",
+    "subpkg/add_fieldinfo/add_fieldinfo",
+    "subpkg/modify_fieldinfo/modify_fieldinfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "账本",
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#FFC0CB",
+    "list": [
+      {
+        "pagePath": "pages/search/search",
+        "text": "记账",
+        "iconPath": "static/c1.png"
+      },
+      {
+        "pagePath": "pages/account/account",
+        "text": "入账",
+        "iconPath": "static/c2.png"
+      },
+      {
+        "pagePath": "pages/count/count",
+        "text": "统计",
+        "iconPath": "static/c3.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

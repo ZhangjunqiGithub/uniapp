@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.name, .field-name, .field-size {
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.father-mushu {
+  height: 100%;
+  width: 220px;
+}
+.father-mushu .son-mushu {
+  height: 100%;
+  width: 100%;
+}
+

@@ -1,0 +1,86 @@
+{
+	"pages": [{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "pages/count/count",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+        }
+        ,{
+            "path" : "pages/account/account",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+        }
+        ,{
+            "path" : "subpkg/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/add_fieldinfo/add_fieldinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/modify_fieldinfo/modify_fieldinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "账本",
+		"navigationBarBackgroundColor": "#FFC0CB",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"selectedColor": "#FFC0CB",
+		"list": [
+			{
+				"pagePath": "pages/search/search",
+				"text": "记账",
+				"iconPath": "static/c1.png"
+				// "selectedIconPath": ""
+			},
+			{
+				"pagePath": "pages/account/account",
+				"text": "入账",
+				"iconPath": "static/c2.png"
+				// "selectedIconPath": ""
+			},
+			{
+				"pagePath": "pages/count/count",
+				"text": "统计",
+				"iconPath": "static/c3.png"
+				// "selectedIconPath": ""
+			}
+		]
+	}
+}
